@@ -1,0 +1,811 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   height: 5000px;
+   
+}
+
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(190, 2, 15, 0.486);
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 10;
+    opacity: .9;
+    
+   
+}
+.imge1{
+    height: 55px;
+    width: 120px;
+    margin-left: 160px;
+    float: left;
+}
+
+    
+
+.list1{
+   float: right;
+   margin-top: 15px;
+}
+
+.list1 li{
+   
+    display: inline-block;
+margin-right: 90px;
+
+
+}
+
+.list1 li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.list1 li a:hover{
+    color: rgb(0, 0, 0);
+text-decoration:underline  ;}
+
+.title1{
+    /* border: 2px solid blue;
+    opacity: 0;
+    display: none;
+    visibility: hidden; */
+    font-size: 60PX;
+    color: aliceblue;
+    margin-bottom: 20PX;
+    letter-spacing: 1PX;
+    word-spacing: 10PX;
+    text-transform: capitalize;
+}
+.title2{
+    /* border: 2px solid blue;
+    opacity: 0;
+    display: none;
+    visibility: hidden; */
+    font-size: 30PX;
+    color: aliceblue;
+    margin-bottom: 20PX;
+    letter-spacing: 1PX;
+    word-spacing: 10PX;
+    text-transform: capitalize;
+}
+
+
+.parent{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    
+    background-size: cover;
+
+
+
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,.5);
+}
+
+.contact{
+    /* background: green; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.btn{
+    background-color: #18239a;
+    margin-top: 50px;
+}
+.btn1{width: 170px;
+    height: 70px;
+    background:#9a1818 ;
+    
+    color: #e1e1e1;
+    font-size: large;
+    border-radius: 17px;
+    border: 6px  ;
+    text-transform: capitalize;
+   
+    margin: 15px;
+}
+.btn2{width: 170px;
+    height: 70px;
+    background: #9a1818;
+  color: #e1e1e1;
+  font-size: large;
+  border-radius: 17px;
+  border: 6px  ;
+  text-transform: capitalize;}
+
+  .btn1:hover{
+    opacity: 0.99;
+    cursor: pointer;
+    color:#fffcfc ;
+    font-size: larger;
+    opacity: .8;
+    
+    }
+    .btn2:hover{
+      
+        opacity: 0.99;
+        cursor: pointer;
+        color: #fffcfc;
+      font-size: larger;
+      opacity: .8;
+      
+    }
+    .p1{
+        font-size: 20px;
+        color: #e1e1e1;
+        text-transform: capitalize;
+        margin-top: 35px;
+    }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.parent2{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+
+}
+
+
+.h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+
+
+}
+.line{
+    height: 3px;
+    width: 200px;
+    margin: auto;
+    background-color: rgb(173, 15, 15);
+    margin-top: 17px;
+    border-radius:50%;
+    margin-bottom: 70px;
+    
+    
+}
+.box1{
+    height: 400px;
+    width:30%;
+    background-image: url(../img/nnn.jpg);
+    background-size: cover;
+    margin-top:90px ;
+    float: left;
+    text-align: center;
+    opacity: 0.9;
+    color: #e1e1e1;
+    text-transform: capitalize;
+    border-radius: 20px;
+   
+}
+
+.gear{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+.i1{
+    font-size: 50px;
+    color: #18239a;
+}
+.i2{
+    font-size: 50px;
+    color: #9a1818;
+    margin: 20px;
+    
+}
+.i3{
+    font-size: 50px;
+    color: rgb(1, 78, 1);
+}
+
+
+
+.mobox{
+    margin-top: 30px;
+ 
+
+}
+
+.pbox1{
+    font-size: larger;
+    margin-top: 30px;
+
+}
+
+
+.readmore{
+   font-size: 30px;
+    color: #bcbceb;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: lowercase;
+
+  
+  
+}
+
+
+
+.box2{
+    height: 400px;
+    width: 30%;
+    background-image: url(../img/nnn.jpg);
+    background-size: cover;
+    margin-top:90px ;
+    float: left;
+    margin-left: 20px;
+    opacity: 0.9;
+    text-transform: capitalize;
+    color: #e1e1e1;
+
+   text-align: center;
+   border-radius: 20px;
+}
+
+.box3{
+    height: 400px;
+    width: 30%;
+    background-image: url(../img/nnn.jpg);
+    background-size: cover;
+    margin-top:90px ;
+    float: left;
+    color: #e1e1e1;
+    text-transform: capitalize;
+
+    text-align: center;
+
+opacity: 0.9;
+  margin-left: 20px;
+  border-radius: 20px;
+
+}
+
+
+/* .countainer2{
+    width: 80%;
+    height: 300px;
+    background-color: #9a1818;
+    margin: auto;
+     float: left;
+
+} */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+   margin-bottom: 300px;
+
+}
+.line2{
+    height: 3px;
+    width: 200px;
+    margin: auto;
+   
+  border: 2px solid red;
+    border-radius: 50%;
+    margin-top: -280px;
+    
+    
+}
+.parent3{
+    width:80%;
+    height: 100vh;
+   margin: auto;
+    border: 20px rgb(51, 131, 153);
+    
+    
+
+}
+.processors-item{
+    float: left;
+    width: 30%;
+    background-color: grey;
+    padding: 18px 14px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+   position: relative;
+}
+.processors-item:hover .processors-overlay  {visibility: visible;
+    opacity: 1;
+
+}
+.processors-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0,0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    z-index: 10;
+}
+
+
+.processors-overlay a{
+    display: block;
+    background-color: #bcbceb;
+    width: 40px;
+    height: 40px;
+    color: #9a1818;
+    font-size: 22px;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.processors-imge{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    border-top:3px solid rgb(193, 189, 189) ;
+    border-bottom:3px solid rgb(193, 189, 189) ;
+}
+.processors-imge img{
+    width: 100%;
+}
+
+.center{
+    margin: 0px 5px;
+}
+
+.processors-overlay a i{
+    line-height: 40px;
+}
+
+.processors-overlay .a2{
+    background-color: aqua;
+}
+
+    
+.processors-overlay .a2{
+    background-color: rgb(255, 47, 0);
+}
+.processors-info h2{
+    padding: 14px;
+    color: #bcbceb;
+    
+}
+    
+.processors-info p{
+    
+    color: #3e3e75;
+
+}
+/* /////////////////////////////////////////////////////////// */
+    
+.processors-item::after{
+    content:"" ;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top:0 ;
+    left: 0;
+    background-color: #333;
+    opacity: 0;
+    transition: 2s;
+    border-radius: 20px;
+}
+.processors-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.offer{
+    margin-top: 20px;
+    border: 200px;
+
+}
+.over-content{
+    overflow: hidden;
+}
+.offeer-item{
+    width: 30%;
+    float: left;
+   margin-bottom: 20px;
+   
+   border: 1px solid #e8e8e8;
+   padding: 30px 15px 30px 70px ;
+   position: relative;
+   border-radius: 20px;
+}
+.offeer-item.mg{margin: 0 5%;}
+.offeer-item .icon {
+    position: absolute;
+    left: 20px;
+    top:30px;
+    font-size: 35px;
+    color: #6195ff;
+}
+
+.offeer-item-title{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.5s;
+}
+.offeer-item-discribtion{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #746d6d;
+}
+
+.offeer-item:hover.offeer-item-title{color: #fff;}
+.offeer-item::after{
+    content:"" ;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top:0 ;
+    left: 0;
+    background-color: #333;
+    opacity: 0;
+    transition: 1s;
+    border-radius: 20px;
+}
+.offeer-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+.parent4{
+    width:80%;
+    height: 100vh;
+   margin: auto;
+    border: 20px rgb(51, 131, 153);
+    
+    margin-top: 70px
+;}
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+.service{
+    background-color: #f4e9e9;
+}
+.service-item{
+    width: 50%;
+    float: left;
+   
+}
+.hheader{
+    text-align: left;
+    color: #1b1b9a;
+}
+.parennt{
+    overflow: hidden;
+    float: left;
+    /* margin-left:1100px ; */
+    /* margin-top: -90px; */
+}
+.service-item-desc{
+    margin-top: 70px;
+    margin-right: 180px;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.service-item .service-img{
+    border-radius: 50%;
+}
+
+.float{
+    float: left;
+  
+}
+.service-list li i{
+    color: #122957;
+}
+.service-list{ line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+list-style: none;}
+
+    .service-item.img img{
+        width: 100%;
+
+    }
+    .imggg{
+        border-radius: 50%;
+        float: left;
+        position: absolute;
+        margin-left: -140px;
+    }
+    /* .////////////////////////////////////////////////////////////// */
+.numpers{
+    position: relative;
+    background-image: url(../img/science-fiction-cityscape-futuristic-star-wars-wallpaper-preview.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 10px;
+    background-attachment:fixed ;
+   
+
+    
+}
+
+.numpers-item{
+    overflow: hidden;
+ 
+color: #e8e8e8;
+padding: 100px ;
+margin-left: 140px;
+}
+.numper-item{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.numper-item .icon{
+    font-size: 30px;
+    line-height: 1.5;
+    color: #6195ff;
+    margin-bottom: 15px;
+}
+.numper-item-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.numper-item-text{
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.pricing-plans{overflow: hidden;}
+.pricing-item{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    
+
+}
+.pricing-item.mg{
+    margin-left: 3%;
+}
+.pricing-item-text{
+    text-transform: uppercase;
+    font-size: 17px;
+    /* list-style: none; */
+    color: #999;
+
+
+}
+.pricing-item-permas{
+    width: 130px;
+    padding: 30px 0;
+   height: 130px;
+    margin:20px auto;
+    border: 2px solid #767ed1;
+    border-radius: 50%;
+    transition: 2s;
+}
+.doller{
+    font-size: 50px;
+}
+.month{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.pricing-lest{
+    list-style: none;
+}
+.pricing-lest li{
+    color: #999;
+    line-height: 1.8;
+}
+.price-bottom{
+    background: none;
+    border: 0;
+    width: 140px;
+    border:1px solid #242865;
+    padding: 10px;
+    margin:15px auto 0;
+    border-radius: 15px;
+    color: rgb(9, 55, 146);
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+/* ///////// */
+.tb-effect::after{
+    content:"" ;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top:0 ;
+    left: 0;
+    background-color: #696363;
+    opacity: 0;
+    transition: 1s;
+   
+}
+.tb-effect:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+.tb-effect{
+    position: relative;
+}
+.pricing-item:hover .pricing-item-permas{color: rgb(169, 23, 23);
+
+}
+.pricing-item:hover .pricing-item-text{color: rgb(19, 46, 165);
+
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.testimonial{
+    position: relative;
+    background-image: url(../img/night-artwork-futuristic-city-science-fiction-wallpaper-preview.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 10px;
+    background-attachment:fixed ;
+    color: #faefef;
+    text-transform: capitalize;
+    
+   
+}
+.testimonial-content{
+    overflow: hidden;
+    padding: 120px 120px;
+   width: 80%;
+   margin: auto;
+}
+.testimonial-item{
+    width: 50%;
+    float: left;
+    color: #eedddd;
+   
+}
+.testimonial-item .testimonial-toplayer{
+    padding: 10px 10px 60px 150px;
+    position: relative;
+}
+.testimonial-toplayer img{
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 50%;
+}
+.testimonial-toplayer  h2{
+    margin-bottom: 10px;
+    
+}
+.testimonial-toplayer span{
+    color: #4195ff;
+    font-weight: bold;
+
+}
+.testimonial-descri{
+    line-height: 1.5;
+    font-size: 17px;
+    color: #f3f3fa;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.blog{
+background: #f4eeee;
+text-transform: capitalize;
+
+}
+.blog-content{
+    overflow: hidden;
+}
+.blog-item{
+    width: 30%;
+    float: left;
+    background: #fff;
+    margin-top: -5px;
+
+}
+.blog-info{
+    padding: 20px;
+}
+
+.bloog-img img{width: 100%;
+    margin-bottom: 20px;
+    height: 400px;
+ 
+  
+}
+.blog-list{
+    list-style: none;
+    margin: 10px;
+    margin-top: -20px;
+}
+.blog-list li{
+    display: inline-block;
+    margin: 0  5px;
+}
+.blog-list li i{
+    color: #195eb2;
+}
+.blog-item-title{
+    font-weight: bold;
+    margin: 20px 0;
+}
+.blog-descr{
+    color: #a4a0a0;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.blog-link{
+    color: #4195ff;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+}
+.blog-item.mg{
+    margin-left:30px;
+    margin-right:30px;
+}
+/* //////////////////////////////////////////////////// */
+.footer{
+    background-color: #b75c5c;
+    text-align: center;
+    padding:50px 0 50px 0;
+}
+.footer-links{
+    list-style: none;
+    margin: 20px 0;
+}
+.footer-links li{
+    display: inline-block;
+
+}
+.footer-links li a{
+    width: 150px;
+    height: 150px;
+    color:rgb(21, 14, 111);
+    
+    border-radius: 50%;
+}
+.foot-img{
+    height: 100px;
+    width: 90px;
+}
+.footer-links li a i{
+    line-height: 90px;
+    font-size: 40px;
+}
